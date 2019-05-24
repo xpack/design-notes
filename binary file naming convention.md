@@ -1,17 +1,16 @@
+# Conventions used to name binary package files
 
-[2019-03-01]
+The current names from GNU MCU Eclipse will change to:
 
-xpack-${name}-${semver}-${platform}-${arch}.${ext}
+`xpack-${name}-${semver}-${platform}-${arch}.${ext}`
 
-platform = darwin | linux | win32
-arch = x32 | x64 | arm | arm64
-ext = .tgz (on darwin and linux) | .zip (on win32)
+- name: short lower case
+- semver: includes pre-release as sub-version; 1 or 2 digits; the actual xpack version will add an extra digit
+- platform = darwin | linux | win32
+- arch = x32 | x64 | arm | arm64
+- ext = .tgz (on darwin and linux) | .zip (on win32)
 
-semver includes pre-release as sub-version; 1 or 2 digits; 
-
-the actual xpack version will add an extra digit.
-
-changes:
+Changes:
 
 - no more date/time, use semver only
 - use node.js platform/arch
