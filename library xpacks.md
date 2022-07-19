@@ -1,6 +1,6 @@
 # Library xPacks
 
-The design targets static libraries, useful for embedded and portable binaries.
+Tentative design for static libraries, useful for embedded and portable binaries.
 
 Shared libs are not excluded, but do not seem a priority for now, so they can
 be considered for the design, but implemented later.
