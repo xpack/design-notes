@@ -1,0 +1,25 @@
+{
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+      80
+    ],
+    "cSpell.ignoreWords": [
+      "autoconfig",
+      "autotools",
+      "binutils",
+      "camelCase",
+      "cmake",
+      "coreutils",
+      "cortexm",
+      "gnuarmeclipse",
+      "kconfig",
+      "xcdl",
+      "xmake",
+      "xpack",
+      "xpacks",
+      "xpmake",
+      "xpninja"
+    ]
+}

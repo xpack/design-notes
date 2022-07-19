@@ -10,9 +10,9 @@
 
 ## Project names
 
-The official project names will change from **GNU MCU Eclipse** to: 
+The official project names will change from **GNU MCU Eclipse** to:
 
-- 'The xPack QEMU', 
+- 'The xPack QEMU'
 - 'The xPack OpenOCD'
 - 'The xPack ARM Embedded GCC'
 - 'The xPack RISC-V Embedded GCC'

@@ -1,8 +1,9 @@
 # Library xPacks
 
-The design targets static libraries, useful for embedded and portable binaries.
+The initial design targeted static libraries, useful for embedded and 
+portable binaries.
 
-Shared libs are not excluded, but do not seem a priority for now, so they can
+Shared libs are not excluded, but do not seem a priority for now, so they can 
 be considered for the design, but implemented later.
 
 commands:
@@ -17,7 +18,8 @@ folders in project root:
 
 (if necessary to add variants, use `.build-${variant}`, `.install-${variant}`)
 
-package.json
+Example of `package.json`:
+
 ```json
 {
   "xpack": {
@@ -33,7 +35,8 @@ package.json
 When dependencies are satisfied, the references are linked (copied on windows).
 (bins can be also processed as references).
 
-The target depends on the project, but most probably is
+The target depends on the project, but most probably is:
 
 - `xpacks/.bin`
 - `xpacks/.install`
+
