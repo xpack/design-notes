@@ -1,9 +1,9 @@
 # Library xPacks
 
-The initial design targeted static libraries, useful for embedded and 
+The initial design targeted static libraries, useful for embedded and
 portable binaries.
 
-Shared libs are not excluded, but do not seem a priority for now, so they can 
+Shared libs are not excluded, but do not seem a priority for now, so they can
 be considered for the design, but implemented later.
 
 commands:
@@ -39,4 +39,3 @@ The target depends on the project, but most probably is:
 
 - `xpacks/.bin`
 - `xpacks/.install`
-
