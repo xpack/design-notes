@@ -6,6 +6,8 @@
       80
     ],
     "cSpell.ignoreWords": [
+      "Xpbuild",
+      "aarch",
       "autoconfig",
       "autotools",
       "binutils",
@@ -13,8 +15,14 @@
       "cmake",
       "coreutils",
       "cortexm",
+      "demangle",
+      "diag",
       "gnuarmeclipse",
       "kconfig",
+      "lgcc",
+      "lrdimon",
+      "rdimon",
+      "semihosting",
       "xcdl",
       "xmake",
       "xpack",
