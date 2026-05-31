@@ -1,4 +1,4 @@
-# JSON stype guide
+# JSON style guide
 
 Generally follow JS style guide
 
@@ -13,8 +13,7 @@ Generally follow JS style guide
 - do not use trailing forward slash (/) in URIs
 - use a trailing forward slash (/) in folder paths
 
-
-Reserved words:
+Words reserved by the JavaScript language that cannot be referred to using dot notation:
 
 - https://google.github.io/styleguide/jsoncstyleguide.xml?showone=Appendix_A:_Reserved_JavaScript_Words#Appendix_A:_Reserved_JavaScript_Words
 
